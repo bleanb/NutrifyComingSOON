@@ -5,7 +5,7 @@
 @media (max-width: 1024px) {
 
     main {
-        background: rgb(238, 237, 226);
+        background: RED;
         width: 100px;
         height: 500px;
         margin: 0;
@@ -20,7 +20,7 @@
     .contenedor-comingsoon{
         width: 100vw;
         overflow: hidden;
-        background:rgb(238, 237, 226);
+        background:red;
     }
 
     .contenedor-comingsoon video{
