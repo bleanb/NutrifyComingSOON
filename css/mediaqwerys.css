@@ -5,9 +5,8 @@
 @media (max-width: 1024px) {
 
     main {
-        background: RED;
         width: 100px;
-        height: 500px;
+        height: 800px;
         margin: 0;
     }
     .pie-pagina{
@@ -20,13 +19,14 @@
     .contenedor-comingsoon{
         width: 100vw;
         overflow: hidden;
-        background:red;
+
     }
 
     .contenedor-comingsoon video{
         width: 150%;
         height: 100%;
         margin-left: -150px;
+        margin-top: -80px;
     }
 
     .pie-pagina {
@@ -36,7 +36,7 @@
     .contenedor-titulo{
         width: 100vw;
         height: 300px;
-        margin-top: -100px;
+        margin-top: -80px;
     }
 
     .logo{
