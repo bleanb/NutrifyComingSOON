@@ -5,19 +5,19 @@
 @media (max-width: 1024px) {
 
     main {
-        width: 100px;
-        height: 800px;
-        margin: 0;
+        width: 100%;
     }
+
     .pie-pagina{
         position: absolute;
         bottom: 0;
-        width: 100vw;
+        width: 100%;
         height: 200px;
+        margin-top: 4000px;
     }
 
     .contenedor-comingsoon{
-        width: 100vw;
+        width: 100%;
         overflow: hidden;
 
     }
