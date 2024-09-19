@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'KanitBold';
+    src: url('../assets/font/KanitBold.ttf') format('opentype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Estilo para la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento */
+}
+
+/* Estilo para el riel de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+    background-color: var(--color-tres); /* Color del riel de la barra de desplazamiento */
+}
+
+/* Estilo para el pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-uno); /* Color del pulgar de la barra de desplazamiento */
+    border-radius: 6px; /* Borde redondeado del pulgar */
+}
+
+/* Estilo para el pulgar de la barra de desplazamiento cuando se desplaza */
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-cuatro); /* Color del pulgar de la barra de desplazamiento al pasar el mouse */
+}
+
+
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
+:root {
+    --color-uno: RGB(106, 111, 70);
+    --color-dos: RGB(248, 127, 64);
+    --color-tres: RGB(255, 246, 231);
+    --color-cuatro: RGB(171, 198, 133);
+    --color-cinco: RGB(171, 198, 155);
+    --color-seis: RGB(26, 126, 81);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+
+main {
+    background: whitesmoke;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
+/*FOOTER*/
+.pie-pagina {
+    width: 100%;
+    background-color: var(--color-cuatro);
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 250px;
+}
+
+
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
+
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
+
+.contenedor-comingsoon{
+    width: 99.1vw;
+    height: 100vh;
+    background-image: url(../assets/img/fondo.png);
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el contenedor */
+    overflow: hidden;
+    background: rgb(239, 238, 227);
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+video::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+
+video::-webkit-media-controls-panel {
+    display: none !important;
+}
+
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-volume-slider,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-mute-button,
+video::-webkit-media-controls-fullscreen-button {
+    display: none !important;
+}
+
+.contenedor-titulo{
+    width: 99.1vw;
+    height: 200px;
+    position: absolute;
+    top: 0;
+}
+
+
+.logo{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+
+.parrafo{
+    font-family: 'KanitBold';
+    font-size: 2em;
+    color: var(--color-dos) ;
+    position: absolute;
+    right: 20%;
+    top: 39%;    
+}
+

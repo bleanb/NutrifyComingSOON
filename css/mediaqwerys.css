@@ -1,0 +1,53 @@
+/*Phones Resolutions*/
+
+/****************************************************************/
+/* Estilos para iPhone 14 y variantes */
+@media (max-width: 1024px) {
+
+    main {
+        background: rgb(238, 237, 226);
+        width: 100px;
+        height: 500px;
+        margin: 0;
+    }
+    .pie-pagina{
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+        height: 200px;
+    }
+
+    .contenedor-comingsoon{
+        width: 100vw;
+        overflow: hidden;
+        background:rgb(238, 237, 226);
+    }
+
+    .contenedor-comingsoon video{
+        width: 150%;
+        height: 100%;
+        margin-left: -150px;
+    }
+
+    .pie-pagina {
+        height: 200px;
+    }
+
+    .contenedor-titulo{
+        width: 100vw;
+        height: 300px;
+
+    }
+
+    .logo{
+        margin-left: -50px;
+    }
+    
+    .parrafo{
+        margin-top: 50px;
+        width: 300px;
+        margin-right: -60px;
+    }
+
+}
+
