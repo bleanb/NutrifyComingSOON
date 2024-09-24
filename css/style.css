@@ -56,10 +56,10 @@ body {
 
 
 main {
-    background: whitesmoke;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin: 0;
+    background: rgb(238, 237, 226);
 }
 
 
@@ -70,6 +70,7 @@ main {
 /*FOOTER*/
 .pie-pagina {
     width: 100%;
+    height: 250px;
     background-color: var(--color-cuatro);
 }
 
@@ -91,7 +92,9 @@ main {
 
 .pie-pagina .grupo-1 .box figure img {
     width: 250px;
+    margin-top: 50px;
 }
+
 
 
 /****************************************************************************/
@@ -104,19 +107,15 @@ main {
 /****************************************************************************/
 
 .contenedor-comingsoon{
-    width: 99.1vw;
-    height: 100vh;
-    background-image: url(../assets/img/fondo.png);
-    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-position: center; /* Centra la imagen en el contenedor */
-    overflow: hidden;
+    width: 100%;
+    height: 100%;
     background: rgb(239, 238, 227);
 }
 
 video {
     width: 100%;
     height: 100%;
+    z-index: 5;
 }
 
 video::-webkit-media-controls {
@@ -142,7 +141,7 @@ video::-webkit-media-controls-fullscreen-button {
 }
 
 .contenedor-titulo{
-    width: 99.1vw;
+    width: 100%;
     height: 200px;
     position: absolute;
     top: 0;
@@ -153,6 +152,7 @@ video::-webkit-media-controls-fullscreen-button {
     position: absolute;
     top: 15%;
     left: 25%;
+    z-index: 100;
 }
 
 .parrafo{
@@ -162,5 +162,6 @@ video::-webkit-media-controls-fullscreen-button {
     position: absolute;
     right: 20%;
     top: 39%;    
+    z-index: 100;
 }
 
